@@ -62,7 +62,7 @@ bot.on('guildMemberAdd', member =>{
     const channel = member.guild.channels.cache.find(channel => channel.name === "welcome");
     if(!channel) return;
 
-    channel.send(`Welcome ${member} to Eclipse Gaming Discord, please verify your self by replying to the Captcha in your DMs!`)
+    channel.send(`Welcome to Eclipse Gaming Discord! please verify your self by replying to the Captcha in your DMs, ${member}!`)
     
 })
 
