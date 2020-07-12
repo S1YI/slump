@@ -7,16 +7,16 @@ module.exports.run = async (bot, message, args) => {
     embed.setColor('#0099ff')
     embed.setTitle('Help')
     embed.setURL('https://discord.js.org/')
-    embed.setAuthor('Eclipse', 'https://i.imgur.com/AnuwTRK.jpg', 'https://discord.js.org')
+    embed.setAuthor('Eclipse', 'https://i.imgur.com/cPCAqwK.jpg', 'https://discord.js.org')
     embed.setDescription('Version: 1.0')
-    embed.setThumbnail('https://i.imgur.com/AnuwTRK.jpg')
+    embed.setThumbnail('https://i.imgur.com/cPCAqwK.jpg')
     embed.addFields(
         { name: 'Mod Cmds', value: '?kick & ?ban', inline: true },
         { name: 'Mod Cmds', value: '?clear', inline: true },
-        { name: 'Random', value: '?ping', inline: true },
+
             )
     embed.setTimestamp()
-    embed.setFooter('Author: Harmless#6666');
+    embed.setFooter('Author: finn#7777');
     message.channel.send(embed);
         }
 

@@ -27,8 +27,10 @@ fs.readdir("./commands/", (err, files) => {
 })
 
 bot.on("ready", async () => {
-    console.log('This Bot Is Online');
-    bot.user.setActivity('Slumped', { type: 'STREAMING'}).catch(console.error);
+    bot.user.setActivity("discord.gg/69", {
+        type: "STREAMING",
+        url: "https://www.twitch.tv/monstercat"
+      });
 })
 
 
@@ -59,10 +61,10 @@ bot.on("message", async message => {
 })
 
 bot.on('guildMemberAdd', member =>{
-    const channel = member.guild.channels.cache.find(channel => channel.name === "welcome");
+    const channel = member.guild.channels.cache.find(channel => channel.name === "🔓");
     if(!channel) return;
 
-    channel.send(`Welcome to Eclipse Gaming Discord! please verify your self by replying to the Captcha in your DMs, ${member}!`)
+    channel.send(`wlc to slump <$ boost & inv, ${member}!`)
     
 })
 
