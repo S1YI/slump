@@ -14,6 +14,7 @@
     "fs": "0.0.1-security",
     "giphy-js-sdk-core": "^1.0.6",
     "moment": "^2.26.0",
+    "nodemon": "^2.0.4",
     "sf": "^0.2.0"
   }
 }

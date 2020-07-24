@@ -61,7 +61,7 @@ bot.on("message", async message => {
 })
 
 bot.on('guildMemberAdd', member =>{
-    const channel = member.guild.channels.cache.find(channel => channel.name === "🔓");
+    const channel = member.guild.channels.cache.find(channel => channel.name === "msg");
     if(!channel) return;
 
     channel.send(`wlc to slump <$ boost & inv, ${member}!`)
